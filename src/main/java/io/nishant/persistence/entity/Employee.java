@@ -18,6 +18,10 @@ import javax.persistence.NamedQuery;
 /*
  * @@NamedQueries
  * this will define the query and compile it once, and can be called multiple times, without neeeding to compile each time
+  */
+
+/*
+Created by Nishant Naik
  */
 @NamedQueries({
 	@NamedQuery(name="Employee.findAll", query = "select emp from Employee emp order by emp.firstname"),
